@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Sofia Sans Condensed';
+    src: url('font/SofiaSansCondensed-VariableFont_wght.ttf') format('truetype');
+  }
+
+body {
+    
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background-color: black;
+}
+
+.logo {
+    float:left;  
+    width: 8%;  
+    height: 8%;  
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.logo_text {
+    font-size: 40px;
+    padding: 2%;
+    color: white;
+}
+
+.buttons {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 8%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+h2 {
+    padding: 10px;
+}
+
+ 
+h2 {
+  display: inline-block;
+  position: relative;
+  color: 
+#ffffff;
+}
+
+h2:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+#ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+h2:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.home {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contact {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about_us_title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white
+}
+
+.contact_us_title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white
+}
